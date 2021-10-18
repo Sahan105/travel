@@ -1,0 +1,62 @@
+const state = {
+  contents: [
+    {
+      img1: require("../../../assets/images/shop/dress/1.jpg"),
+      img2: require("../../../assets/images/shop/dress/1-1.jpg"),
+      cart: "Add to cart",
+      view: "Quick view",
+      h1: "Checked Short Dress",
+      prize: "$24.99",
+      rating: 4,
+    },
+    {
+      img1: require("../../../assets/images/shop/dress/2.jpg"),
+      img2: require("../../../assets/images/shop/dress/2-2.jpg"),
+      cart: "Add to cart",
+      view: "Quick view",
+      h1: "Slim Fit Chinos",
+      prize: "$64.99",
+      rating: 3,
+    },
+    {
+      img1: require("../../../assets/images/shop/dress/3.jpg"),
+      img2: require("../../../assets/images/shop/dress/3-1.jpg"),
+      cart: "Add to cart",
+      view: "Quick view",
+      h1: "Dark Brown Black",
+      prize: "$24.99",
+      rating: 5,
+    },
+    {
+      img1: require("../../../assets/images/shop/tshirts/1.jpg"),
+      img2: require("../../../assets/images/shop/tshirts/1-1.jpg"),
+      cart: "Add to cart",
+      view: "Quick view",
+      h1: "Light Blue Denim Dress",
+      prize: "$34.99",
+      rating: 2,
+    },
+    {
+      img1: require("../../../assets/images/shop/tshirts/1.jpg"),
+      img2: require("../../../assets/images/shop/tshirts/1-1.jpg"),
+      cart: "Add to cart",
+      view: "Quick view",
+      h1: "Light Blue Denim Dress",
+      prize: "$34.99",
+      rating: 4,
+    },
+    {
+      img1: require("../../../assets/images/shop/tshirts/1.jpg"),
+      img2: require("../../../assets/images/shop/tshirts/1-1.jpg"),
+      cart: "Add to cart",
+      view: "Quick view",
+      h1: "Light Blue Denim Dress",
+      prize: "$34.99",
+      rating: 5,
+    },
+  ],
+};
+export default {
+  namespaced: true,
+  state,
+};
